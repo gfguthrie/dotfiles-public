@@ -23,7 +23,7 @@ config.font = wezterm.font {
   weight = "Regular",
   stretch = "Normal",
   style = "Normal",
-  harfbuzz_features = {"onum", "ss07", "ss10"}
+  harfbuzz_features = {"onum", "ss07"}
 }
 
 -- We're only using panes
