@@ -26,6 +26,9 @@ config.font = wezterm.font {
   harfbuzz_features = {"onum", "ss07"}
 }
 
+-- How many lines of scrollback you want to retain per tab
+config.scrollback_lines = 64000
+
 -- We're only using panes
 config.hide_tab_bar_if_only_one_tab = true
 
