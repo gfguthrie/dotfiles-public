@@ -15,6 +15,7 @@ zstyle :prompt:pure:path color 4
 zstyle :prompt:pure:prompt:error color 1
 zstyle :prompt:pure:prompt:success color 13
 zstyle :prompt:pure:prompt:continuation color 14
+zstyle :prompt:pure:suspended_jobs color 1
 zstyle :prompt:pure:user color 14
 zstyle :prompt:pure:user:root color 1
 zstyle :prompt:pure:virtualenv color 14

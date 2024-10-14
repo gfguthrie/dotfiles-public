@@ -11,7 +11,7 @@ Steps to get dev up & running
    chsh -s /usr/local/bin/zsh
    ```
 7. Install Zim https://zimfw.sh
-8. Pull this repo
+8. Pull this repo, then:
  - ```sh
    brew bundle --file Projects/dotfiles-public/personal.Brewfile
    ```
@@ -24,14 +24,18 @@ Steps to get dev up & running
  - Source `Projects/dotfiles-public/shell-integration/wezterm.sh` at top of .zshrc
  - Source `Projects/dotfiles-public/personal.zsh` in .zshrc
  - ```sh
-   ln -s Projects/dotfiles-public/wezterm-canonical-solarized/canonical_solarized.lua .config/wezterm/canonical_solarized.lua
+   ln -s ~/Projects/dotfiles-public/wezterm-canonical-solarized/canonical_solarized.lua .config/wezterm/canonical_solarized.lua
    ```
  - ```sh
-   ln -s Projects/dotfiles-public/wezterm-canonical-solarized/canonical_solarized_auto_appearance.lua .config/wezterm/canonical_solarized_auto_appearance.lua
+   ln -s ~/Projects/dotfiles-public/wezterm-canonical-solarized/canonical_solarized_auto_appearance.lua .config/wezterm/canonical_solarized_auto_appearance.lua
+   ```
+ - ```sh
+   ln -s ~/Projects/dotfiles-public/fastfetch-config.jsonc .config/fastfetch/config.jsonc
    ```
  - ```sh
    ln -s Projects/dotfiles-public/.wezterm.lua .wezterm.lua
    ```
+
 ## Profiling
 At the top of `.zshrc`:
 ```sh

@@ -20,11 +20,15 @@ canonical_solarized_auto_appearance.apply_to_config(config)
 -- Specify Regular & wezterm selects the other weights automatically
 config.font = wezterm.font {
   family = "Fira Code",
-  weight = "Regular",
+  weight = 450,
   stretch = "Normal",
   style = "Normal",
   harfbuzz_features = {"onum", "ss07"}
 }
+config.font_size = 14
+
+config.initial_cols = 90
+config.initial_rows = 24
 
 -- How many lines of scrollback you want to retain per tab
 config.scrollback_lines = 64000
